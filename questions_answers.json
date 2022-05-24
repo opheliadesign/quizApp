@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is the maximum possible length of an identifier?",
+    "answers": [
+      {
+        "text": "31 Characters",
+        "is_correct": false
+      },
+      {
+        "text": "63 characters",
+        "is_correct": false
+      },
+      {
+        "text": "79 characters",
+        "is_correct": false
+      },
+      {
+        "text": "Identifiers can be of any length.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question": "Given a function that does not return any value, What value is thrown by default when executed in shell.",
+    "answers": [
+      {
+        "text": "Int",
+        "is_correct": false
+      },
+      {
+        "text": "bool",
+        "is_correct": false
+      },
+      {
+        "text": "none",
+        "is_correct": true
+      },
+      {
+        "text": "void",
+        "is_correct": false
+      }
+    ]
+  }
+]
