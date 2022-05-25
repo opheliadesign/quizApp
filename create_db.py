@@ -1,6 +1,5 @@
 import json
 from peewee import *
-from passlib.hash import pbkdf2_sha256
 from quiz_pkg.print_to_term import print_success
 
 db = SqliteDatabase('quiz_app.db')
@@ -67,7 +66,7 @@ def seed_database():
         for answer in question_answer['answers']:
             Answer.create(
                 question=question,
-                text=answer["text"],
+                text=answer["text"].strip(),
                 is_correct=bool(answer["is_correct"])
             )
 
