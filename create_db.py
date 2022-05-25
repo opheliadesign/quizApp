@@ -74,4 +74,4 @@ def seed_database():
 create_tables()
 seed_database()
 
-print_success("SUCCESS!", "The database has been created! Please run [bold]main.py[/bold] to play!")
+print_success("SUCCESS!", "The database has been created! Please run [bold]quizapp.py[/bold] to play!")

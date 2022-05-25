@@ -17,5 +17,5 @@ Run **create_db.py** to initialize and seed the database. Note that only a few q
 are included under **questions_answers.json**. Then run **main.py** to play!
 ```bash
 python create_db.py
-python main.py
+python quizapp.py
 ```

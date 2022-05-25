@@ -8,4 +8,7 @@ if not exists("quiz_app.db"):
                          "Please run [bold]create_db.py[/bold]")
     exit()
 
+# Start out without a registered user
+User = None
+# Display the app's main menu
 display_main_menu()
