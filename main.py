@@ -7,7 +7,5 @@ if not exists("quiz_app.db"):
     print_error("ERROR", "The database must be initialized before running the app.\n"
                          "Please run [bold]create_db.py[/bold]")
     exit()
-layout = make_layout()
-layout["header"].update(Header())
-layout['body'].update(Body())
-print(layout)
+
+display_main_menu()

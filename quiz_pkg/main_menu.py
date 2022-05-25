@@ -29,7 +29,6 @@ def make_layout() -> Layout:
 
 
 def make_menu_options() -> Panel:
-    """Some example content."""
     menu_options = Table.grid(padding=1)
     menu_options.add_column(style="green", justify="left")
     menu_options.add_column(no_wrap=True)
