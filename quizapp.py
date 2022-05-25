@@ -1,4 +1,5 @@
 from quiz_pkg.main_menu import *
+from quiz_pkg.user import register
 from quiz_pkg.print_to_term import print_error
 from os.path import exists
 
@@ -10,5 +11,8 @@ if not exists("quiz_app.db"):
 
 # Start out without a registered user
 User = None
+
+# Prompt the user to login or register
+register()
 # Display the app's main menu
 display_main_menu()
