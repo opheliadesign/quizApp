@@ -53,6 +53,6 @@ def print_info(title: str, message: str):
     Print Info
     :param title: title of the message, eg "Info" 
     :param message: body of the message, eg "Please fill out these fields"
-    :return:
+    :return: 
     """
     print_to_term(title, message, "#3260a8")
