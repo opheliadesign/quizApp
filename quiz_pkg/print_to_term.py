@@ -6,7 +6,7 @@ from rich.panel import Panel
 """
 
 
-def print_to_term(title: str, message: str, bg_color:str):
+def print_to_term(title: str, message: str, bg_color: str):
     """
     Print to Term
     Prints the final message to the terminal, stylized
@@ -46,3 +46,13 @@ def print_error(title: str, message: str):
     :return:
     """
     print_to_term(title, message, "#8a1903")
+
+
+def print_info(title: str, message: str):
+    """
+    Print Info
+    :param title: title of the message, eg "Info" 
+    :param message: body of the message, eg "Please fill out these fields"
+    :return:
+    """
+    print_to_term(title, message, "#3260a8")
